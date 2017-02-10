@@ -1,0 +1,12 @@
+.breadcrumb{
+    background-color: transparent;
+}
+.breadcrumb > li + li::before {
+    color: #ccc;
+    content: "\f105";
+    padding: 0 5px;
+}
+
+.breadcrumb a{
+    color: #a9b6c9;
+}
