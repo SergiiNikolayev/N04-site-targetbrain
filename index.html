@@ -19,20 +19,22 @@
 <body>
 
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">WebSiteName</a>
+            <a class="navbar-brand " href="#">
+                <img class="logo" src="img/logo.jpg" alt="">
+            </a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Вебинар</a></li>
+            <li><a href="#">Вебинар</a></li>
             <li><a href="#">Соцсеть</a></li>
             <li><a href="#">Курсы</a></li>
             <li><a href="#">Рассылки</a></li>
             <li><a href="#">Лендинг</a></li>
             <li><a href="#">Цели</a></li>
 
-            <li><a href="#">Вход</a></li>
-            <li><a href="#">Регистрация</a></li>
+            <li><img class="login-img" src="img/login.png" alt=""><a href="#" color="red">Вход</a></li>
+            <li><a href="#" color="red">Регистрация</a></li>
         </ul>
     </div>
 </nav>
@@ -48,28 +50,72 @@
 <!--form-->
 <div class="container">
     <div class="row">
-        <div class="col-sm-6">cccc</div>
         <div class="col-sm-6">
-            <form>
-                <div class="form-group">
-                    <label for="email">Email address:</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="form-group">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" id="pwd">
-                </div>
-                <div class="checkbox">
-                    <label><input type="checkbox"> Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-            </form>
+        <div class="warp">
+            <img class="fl content-img" src="img/co.jpg" alt="">
+            <h1>КОНТАКТЫ</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cum dicta dignissimos distinctio, doloribus, facilis molestias quae repellat sapiente sunt vel, vitae? Eius illo illum ipsam laborum magnam quis repellat.</p>
+
+
+        </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="warp">
+                <img class="fl content-img" src="img/os.jpg" alt="">
+                <h1>Обратная связь</h1>
+                <hr>
+                <p class="clearfix">Воспользуйтесь, пожалуйста, формой обратной связи:</p>
+
+                <form>
+                    <div class="form-group">
+                        <input type="name" class="form-control" id="name" value="Имя">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" value="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" cols="70" id="comment"></textarea>
+                    </div>
+                    <div class="col-xs-4 text-center">
+                        <button id="singlebutton" name="singlebutton" class="btn btn-primary">Отправить</button>
+                    </div>
+
+
+                </form>
+            </div>
         </div>
     </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
 </div>
 
 
 <!--footer-->
+
+<footer class="footer">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-3">
+                <p class="p1">© targetbrain.com</p>
+            </div>
+            <div class="col-sm-6 p1 footer-nav">
+                <a href="#">О нас</a><span> </span>
+                <a href="#">Договор оферты</a><span> </span>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="col-sm-3"><p class="p1 pull-right">
+                <i class="fa fa-instagram fa-lg"></i>
+                <i class="fa  fa-facebook fa-lg"></i>
+                <i class="fa  fa-twitter fa-lg"></i>
+                <i class="fa  fa-youtube fa-lg"></i>
+            </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
